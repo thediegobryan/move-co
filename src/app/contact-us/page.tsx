@@ -23,7 +23,7 @@ const formSchema = z.object({
   message: z.string().min(10).max(500),
 });
 
-export function ProfileForm() {
+function ProfileForm() {
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
