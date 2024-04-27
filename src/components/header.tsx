@@ -21,8 +21,8 @@ const routes = [
     path: "/why-rent",
   },
   {
-    label: "Pricing",
-    path: "/pricing",
+    label: "Products",
+    path: "/products",
   },
   {
     label: "Locations",

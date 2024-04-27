@@ -10,7 +10,6 @@ type ProductProps = {
     quantity: number;
     price: number;
     dolleys: string;
-    packingPaper: string;
   };
 };
 
@@ -42,8 +41,6 @@ export default function PricingBox({ product }: ProductProps) {
           <li className="">{product.quantity} Label cards</li>
           <hr />
           <li className="">{product.dolleys}</li>
-          <hr />
-          <li className="">{product.packingPaper}</li>
           <hr />
           <li className="">Drop-off & Pick-up</li>
         </ul>

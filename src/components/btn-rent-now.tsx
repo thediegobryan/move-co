@@ -15,7 +15,7 @@ export default function BtnRentNow({ className }: rentNowProps) {
       )}
       href="/rent-now"
     >
-      Book Now
+      Add to Cart
     </Link>
   );
 }
