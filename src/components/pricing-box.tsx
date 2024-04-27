@@ -45,7 +45,7 @@ export default function PricingBox({ product }: ProductProps) {
           <li className="">Drop-off & Pick-up</li>
         </ul>
       </div>
-      <BtnRentNow />
+      <BtnRentNow>Add to Cart</BtnRentNow>
     </form>
   );
 }

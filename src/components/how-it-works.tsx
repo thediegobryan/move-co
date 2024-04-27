@@ -38,7 +38,7 @@ export default function HowItWorks() {
         </span>{" "}
         drop-off and pick-up!
       </h3>
-      <BtnRentNow />
+      <BtnRentNow>View Products</BtnRentNow>
     </section>
   );
 }

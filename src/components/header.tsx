@@ -14,12 +14,9 @@ import {
 } from "@/components/ui/dialog";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
+import Cart from "./cart";
 
 const routes = [
-  {
-    label: "Why Rent?",
-    path: "/why-rent",
-  },
   {
     label: "Products",
     path: "/products",
@@ -69,12 +66,10 @@ export default function Header() {
                 </Link>
               </li>
             ))}
-            <li key="/rent-now">
-              <BtnRentNow className="py-2 px-4" />
-            </li>
           </ul>
         </nav>
       </div>
+
       <div className="md:hidden">
         <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
           <DialogTrigger>
@@ -108,14 +103,14 @@ export default function Header() {
                       </Link>
                     </li>
                   ))}
-                  <li key="/rent-now">
-                    <BtnRentNow className="px-16 py-4" />
-                  </li>
                 </ul>
               </nav>
             </div>
           </DialogContent>
         </Dialog>
+      </div>
+      <div>
+        <Cart />
       </div>
     </header>
   );

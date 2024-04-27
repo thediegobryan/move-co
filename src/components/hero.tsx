@@ -26,7 +26,7 @@ export default function Hero() {
             Delivered right to your door, our reusable moving totes save you
             time and money.
           </p>
-          <BtnRentNow />
+          <BtnRentNow>View Products</BtnRentNow>
         </motion.div>
         <motion.div
           className="md:col-start-2 col-span-1 row-start-2 md:row-start-1 flex flex-col justify-center items-center px-5"
