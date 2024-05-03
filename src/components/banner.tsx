@@ -5,7 +5,7 @@ export default function Banner() {
     <section className="bg-accent text-center p-3">
       <p className="font-extrabold">
         🚨 Project is currently under construction. Check back in later to see
-        the updates 🚨
+        the updates. Next Feature: Cart Functionality 🚨
       </p>
     </section>
   );
